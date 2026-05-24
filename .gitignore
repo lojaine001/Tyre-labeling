@@ -1,0 +1,28 @@
+# Raw image datasets (too large for GitHub)
+data_with/
+data_without/
+data/
+the_data/
+
+# Output datasets with images
+data_with_output/
+data_without_output/
+yolo_dataset/
+yolo_dataset_without/
+merged_dataset/
+
+# Annotated image folders
+annotated_images/
+annotated_images_inner_only/
+annotated_images_inner_and_outer/
+
+# Debug and preview images
+*.jpg
+*.png
+debug_*
+v3_test_*
+v4_test_*
+
+# Review progress (local state)
+review_progress.txt
+review_progress_without.txt
