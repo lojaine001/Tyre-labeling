@@ -77,11 +77,11 @@ for img_info in auto_coco["images"]:
     ann_png = f"{stem}_annotated.png"
     folder  = img_info.get("folder", "4")
 
-    if tid in bad_ids:
-        if tid not in corrected:
+    if stem in bad_ids:
+        if stem not in corrected:
             skipped += 1
             continue
-        c = corrected[tid]
+        c = corrected[stem]
         ox, oy, or_ = c["outer"]
         ix, iy, ir  = c["inner"]
         w, h = img_info["width"], img_info["height"]

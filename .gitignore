@@ -26,3 +26,22 @@ v4_test_*
 # Review progress (local state)
 review_progress.txt
 review_progress_without.txt
+
+# New large datasets
+yolo_dataset_the_data/
+yolo_whole_data/
+yolo_whole_data_split/
+yolo_dataset_no_background/
+yolo_dataset_with_background/
+the_data_output/
+
+# Model weights and training runs
+runs/
+yolov8m-seg.pt/
+yolo26n.pt
+yolov8m-seg.pt
+*.pt
+*.zip
+
+# Office files
+*.docx

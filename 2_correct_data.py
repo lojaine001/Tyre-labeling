@@ -15,7 +15,7 @@ Controls:
 import cv2, numpy as np, json, math
 from pathlib import Path
 
-BATCH      = 2    # <-- change to 1, 2, 3 ... to work in batches of 100
+BATCH      = 1    # <-- change to 1, 2, 3 ... to work in batches of 100
 BATCH_SIZE = 100
 
 ROOT      = Path(r"c:\Users\lojai\Documents\labelling\the_data")
